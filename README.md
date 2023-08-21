@@ -33,38 +33,38 @@ This command adds an ally to the list, so that when you do the /allies command, 
 
 ### /create-enemy
 This command adds an enemy to the list, so that when you do the /enemies command, the information appears. Great for new members of your team to check what they do
-[name] = The name of the nation/team
-[leader] = The person who is incharge of the group
-[location] = The general location of the group
-[relationship] = How you are related to the enemy
-[link] = A link to their discord server
+[name] = The name of the nation/team<br />
+[leader] = The person who is incharge of the group<br />
+[location] = The general location of the group<br />
+[relationship] = How you are related to the enemy<br />
+[link] = A link to their discord server<br />
 
 ### /create-alert
 This command adds a player into the alerts list, so that when you next run the /begin-alerts command it will start track that person
-[username] = The minecraft username of the player
-[position] = The location center of the area that the player is not allowed to be in
-[range] = How far away the player has to be from the position
-[priority] = How important it is if the player enters the range
+[username] = The minecraft username of the player<br />
+[position] = The location center of the area that the player is not allowed to be in<br />
+[range] = How far away the player has to be from the position<br />
+[priority] = How important it is if the player enters the range<br />
 
 ### /server-setup
 This is required before performing any major commands, and skips alot of the boring JSON editing that you will not want to do!
-[announcements-channel] = The channel where alerts and notifications go to
-[admin-role] = The role needed for people to create, edit, remove and add alerts, allies and enemies from the list
-[minor-alert-role] = The role thats pinged when a minor alert is triggered
-[major-alert-role] = The role thats pinged when a major alert is triggered
-[extreme-alert-role] = The role thats pinged when a extreme alert is triggered
+[announcements-channel] = The channel where alerts and notifications go to<br />
+[admin-role] = The role needed for people to create, edit, remove and add alerts, allies and enemies from the list<br />
+[minor-alert-role] = The role thats pinged when a minor alert is triggered<br />
+[major-alert-role] = The role thats pinged when a major alert is triggered<br />
+[extreme-alert-role] = The role thats pinged when a extreme alert is triggered<br />
 
 ### /remove-enemy 
 Removes an enemy from the enemies list
-[index] = The point in the list where the enemy is (EG: The first enemy in the list or the 5th etc). Starts at 1
+[index] = The point in the list where the enemy is (EG: The first enemy in the list or the 5th etc). Starts at 1<br />
 
 ### /remove-ally
 Removes an ally from the allys list
-[index] = The point in the list where the ally is (EG: The first ally in the list or the 5th etc). Starts at 1
+[index] = The point in the list where the ally is (EG: The first ally in the list or the 5th etc). Starts at 1<br />
 
 ### /remove-alert 
 Removes an alert from the alerts list
-[index] = The point in the list where the alert user is (EG: The first alert user in the list or the 5th etc). Starts at 1
+[index] = The point in the list where the alert user is (EG: The first alert user in the list or the 5th etc). Starts at 1<br />
 
 ### /ping
 This does NOT show the game ping, this is just a simple command. All it does is respond with "Pong!". Its used to confirm wether the bot is up and running
