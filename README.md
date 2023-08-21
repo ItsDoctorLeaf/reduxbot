@@ -22,6 +22,14 @@ I have set up a 24/7 host for this bot, so you can contact me on discord and i w
 ## USING THE COMMANDS
 So you want to use all the cool commands? This area below is a quick description of each command, what it does, and how to use it.
 
+### /server-setup
+This is required before performing any major commands, and skips alot of the boring JSON editing that you will not want to do!
+[announcements-channel] = The channel where alerts and notifications go to
+[admin-role] = The role needed for people to create, edit, remove and add alerts, allies and enemies from the list
+[minor-alert-role] = The role thats pinged when a minor alert is triggered
+[major-alert-role] = The role thats pinged when a major alert is triggered
+[extreme-alert-role] = The role thats pinged when a extreme alert is triggered
+
 ### /create-ally
 This command adds an ally to the list, so that when you do the /allies command, the information appears. Great for new members of your team to check what they do
 [name] = The name of the nation/team
@@ -44,11 +52,3 @@ This command adds a player into the alerts list, so that when you next run the /
 [position] = The location center of the area that the player is not allowed to be in
 [range] = How far away the player has to be from the position
 [priority] = How important it is if the player enters the range
-
-### /server-setup
-This is required before performing any major commands, and skips alot of the boring JSON editing that you will not want to do!
-[announcements-channel] = The channel where alerts and notifications go to
-[admin-role] = The role needed for people to create, edit, remove and add alerts, allies and enemies from the list
-[minor-alert-role] = The role thats pinged when a minor alert is triggered
-[major-alert-role] = The role thats pinged when a major alert is triggered
-[extreme-alert-role] = The role thats pinged when a extreme alert is triggered
