@@ -2,78 +2,44 @@
   "servers": [
     {
       "setup": true,
-      "guild": "1126104535086145620",
-      "display": "Development Server",
+      "guild": "",
+      "display": "Epic cool server",
       "tier": 2,
       "daysLeft": 1,
       "member": {
-        "ign": "ItsDoctorLeaf",
-        "userid": "drleaf",
-        "display-name": "DoctorLeaf",
-        "team": "NSE"
+        "ign": "",
+        "userid": "",
+        "display-name": "",
+        "team": ""
       },
       "tracking": {
         "usedFeatures": {
-          "players": 9,
-          "locate": 1,
-          "trackC": 2,
+          "players": 0,
+          "locate": 0,
+          "trackC": 0,
           "screenshot": 0,
-          "alertC": 13,
-          "alertBegin": 42,
-          "notifyC": 52,
-          "allys": 31,
+          "alertC": 0,
+          "alertBegin": 0,
+          "notifyC": 0,
+          "allys": 0,
           "enemies": 0,
-          "undefinedCommand": 3
+          "undefinedCommand": 0
         }
       },
       "purchase": {
-        "purchase-reason": "Development",
-        "seller": "DoctorLeaf",
+        "purchase-reason": "",
+        "seller": "",
         "date": "01/01/01"
       },
       "information": {
-        "allys": [
-          {
-            "name": "JIM",
-            "leader": "Poop hehe",
-            "location": "EUROPE",
-            "relationship": "FRIENDS",
-            "link": "discord.gg/2312803812093812903812"
-          }
-        ],
+        "allys": [],
         "enemies": [],
-        "alerts": [
-          {
-            "username": "sillygoatj",
-            "alertPosition": [
-              0,
-              0
-            ],
-            "alertRange": 2000,
-            "priority": 1
-          },
-          {
-            "username": "KatLD",
-            "alertPosition": [
-              0,
-              0
-            ],
-            "alertRange": 0,
-            "priority": 1
-          }
-        ],
-        "roles": [
-          "1142385645847855198",
-          "1142385676474654811",
-          "1142385703842480158",
-          "1142385614147301386"
-        ],
-        "channels": [
-          "1126104536243785800"
-        ]
+        "alerts": [],
+        "roles": [],
+        "channels": []
       },
       "alert": {
-        "running": true,
+        "running": false,
         "time": 0
       }
     }
