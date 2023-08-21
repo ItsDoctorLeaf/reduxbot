@@ -1,0 +1,19 @@
+const {SlashCommandBuilder, EmbedBuilder} = require("discord.js")
+const confirm = require("../confirmations");
+
+module.exports = {
+    data: new SlashCommandBuilder()
+        .setName("COMMAND-NAME")
+        .setDescription("COMMAND-DESCRIPTION"),
+    async execute(ctx) {
+        await ctx.deferReply();
+        let confirmationResult = confirm.hasAccess(ctx.guildId,COMMAND-LEVEL);
+        if (!confirmationResult.value)
+        {
+            await ctx.reply({embeds:[confirm.noAccessEmbed.addFields({name:"Reason",value:confirmationResult.reason})]});
+            return;
+        }
+        confirm.useCommand(ctx.guildId,COMMAND-ID);
+
+    }
+}

@@ -1,0 +1,5 @@
+INTRODUCING ReduxTools
+
+A great and efficient way to keep tabs on ecoredux.
+
+Using the dynmap, this bot is able to track, screenshot, and alert you when people are near your town!

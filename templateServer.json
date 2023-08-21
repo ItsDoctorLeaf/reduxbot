@@ -1,0 +1,42 @@
+{
+    "guild": "00000000000000000",
+    "display": "serverName",
+    "tier":"free/regular/premium",
+    "buyLevel": "hour/day/half-week/week/fortnight/permanent",
+    "daysLeft":0,
+    "member": {
+        "ign":"minecraft username",
+        "userid":"user id discord",
+        "display-name":"discord displayname",
+        "team":"minecraft nation"
+    },
+   "tracking": {
+        "used-features":{
+            "players":0,
+            "locate":0,
+            "track":0,
+            "screenshot":0,
+            "alert":0,
+            "alert-begin":0,
+            "notify":0,
+            "allys":0,
+            "enemies":0
+        }
+    },
+    "purchase": {
+        "purchase-reason": "",
+        "seller": "",
+        "date":""
+    },
+  "information": {
+    "allys": [
+
+    ],
+    "enemies": [
+
+    ],
+    "alerts": [
+
+    ]
+  }
+}

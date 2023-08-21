@@ -1,0 +1,81 @@
+{
+  "servers": [
+    {
+      "setup": true,
+      "guild": "1126104535086145620",
+      "display": "Development Server",
+      "tier": 2,
+      "daysLeft": 1,
+      "member": {
+        "ign": "ItsDoctorLeaf",
+        "userid": "drleaf",
+        "display-name": "DoctorLeaf",
+        "team": "NSE"
+      },
+      "tracking": {
+        "usedFeatures": {
+          "players": 9,
+          "locate": 1,
+          "trackC": 2,
+          "screenshot": 0,
+          "alertC": 13,
+          "alertBegin": 42,
+          "notifyC": 52,
+          "allys": 31,
+          "enemies": 0,
+          "undefinedCommand": 3
+        }
+      },
+      "purchase": {
+        "purchase-reason": "Development",
+        "seller": "DoctorLeaf",
+        "date": "01/01/01"
+      },
+      "information": {
+        "allys": [
+          {
+            "name": "JIM",
+            "leader": "Poop hehe",
+            "location": "EUROPE",
+            "relationship": "FRIENDS",
+            "link": "discord.gg/2312803812093812903812"
+          }
+        ],
+        "enemies": [],
+        "alerts": [
+          {
+            "username": "sillygoatj",
+            "alertPosition": [
+              0,
+              0
+            ],
+            "alertRange": 2000,
+            "priority": 1
+          },
+          {
+            "username": "KatLD",
+            "alertPosition": [
+              0,
+              0
+            ],
+            "alertRange": 0,
+            "priority": 1
+          }
+        ],
+        "roles": [
+          "1142385645847855198",
+          "1142385676474654811",
+          "1142385703842480158",
+          "1142385614147301386"
+        ],
+        "channels": [
+          "1126104536243785800"
+        ]
+      },
+      "alert": {
+        "running": true,
+        "time": 0
+      }
+    }
+  ]
+}
