@@ -21,3 +21,27 @@ d. the rest of the values are not required for the bot to function
 
 ## USING THE COMMANDS
 So you want to use all the cool commands? This area below is a quick description of each command, what it does, and how to use it.
+
+### /create-ally
+This command adds an ally to the list, so that when you do the /allies command, the information appears. Great for new members of your team to check what they do
+[name] = The name of the nation/team
+[leader] = The person who is incharge of the group
+[location] = The general location of the group
+[relationship] = How you are related to the ally
+[link] = A link to their discord server
+
+### /create-enemy
+This command adds an enemy to the list, so that when you do the /enemies command, the information appears. Great for new members of your team to check what they do
+[name] = The name of the nation/team
+[leader] = The person who is incharge of the group
+[location] = The general location of the group
+[relationship] = How you are related to the enemy
+[link] = A link to their discord server
+
+### /create-alert
+This command adds a player into the alerts list, so that when you next run the /begin-alerts command it will start track that person
+[username] = The minecraft username of the player
+[position] = The location center of the area that the player is not allowed to be in
+[range] = How far away the 
+[relationship] = How you are related to the ally
+[link] = A link to their discord server
