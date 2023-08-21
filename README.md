@@ -25,11 +25,11 @@ So you want to use all the cool commands? This area below is a quick description
 
 ### /create-ally
 This command adds an ally to the list, so that when you do the /allies command, the information appears. Great for new members of your team to check what they do
-[name] = The name of the nation/team \n
-[leader] = The person who is incharge of the group\n
-[location] = The general location of the group\n
-[relationship] = How you are related to the ally\n
-[link] = A link to their discord server\n
+[name] = The name of the nation/team <br />
+[leader] = The person who is incharge of the group <br />
+[location] = The general location of the group <br />
+[relationship] = How you are related to the ally <br />
+[link] = A link to their discord server <br />
 
 ### /create-enemy
 This command adds an enemy to the list, so that when you do the /enemies command, the information appears. Great for new members of your team to check what they do
