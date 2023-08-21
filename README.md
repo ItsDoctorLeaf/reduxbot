@@ -86,3 +86,15 @@ This shows a list of all of the allies of the server. You can add and remove all
 ### /enemies
 This shows a list of all of the enemies of the server. You can add and remove enemies from this list using the /create-enemies and /remove-enemies commands
 
+### /run-alerts
+This command runs the alert system. It should update every 10 seconds. You can tell if the system broke because the counter at the bottom of the embed will stop updating. Your server can only have the alerts command running 1 at a time. If you wish to add more players to the alerts, you can use the /create-alert and /remove-alert to remove them.
+Alert lists will only update upon a restart, so to add / remove players, once doing the related command, you must do /stop-alerts then /start-alerts
+
+### /notify
+/notify simulates an alert, in the sense of it will create your own custom alert style notification and send it to the alerts channel.
+[priority] = How important the alert is (changes which role it pings)
+[message] = The contents of the alert message
+[title] = The title of the alerts message
+
+### /help (OUTDATED)
+the help command contains outdated information and is yet to be updated...
