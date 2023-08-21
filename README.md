@@ -75,3 +75,14 @@ This command shows a list of all online players, and their locations (based off 
 ### /locate
 This command locates a player based on their username, then it will return their current position
 [player-name] = The username of the minecraft player
+
+### /track
+Follows the position of the minecraft player for 60s and returns it in the chat. Its basically the locate command but it runs for 60s and updates per second
+[player-name] = The username of the minecraft player
+
+### /allies
+This shows a list of all of the allies of the server. You can add and remove allies from this list using the /create-ally and /remove-ally commands
+
+### /enemies
+This shows a list of all of the enemies of the server. You can add and remove enemies from this list using the /create-enemies and /remove-enemies commands
+
